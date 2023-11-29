@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72B32DE2B053E6600D47429 /* bible_data.json in Resources */ = {isa = PBXBuildFile; fileRef = B72B32DD2B053E6600D47429 /* bible_data.json */; };
+		B72B32E02B053E9C00D47429 /* BibleReadingsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B32DF2B053E9C00D47429 /* BibleReadingsDataModel.swift */; };
+		B72B32E22B05CBBB00D47429 /* ReadingsLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B32E12B05CBBB00D47429 /* ReadingsLocalDataSource.swift */; };
+		B72B32E42B05CDBB00D47429 /* BibleReadingParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B32E32B05CDBB00D47429 /* BibleReadingParser.swift */; };
+		B72B32E62B05D15400D47429 /* BibleReadingParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B32E52B05D15400D47429 /* BibleReadingParserTests.swift */; };
 		B7BA5C322AE360A500454FDB /* BibleYearTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C312AE360A500454FDB /* BibleYearTrackerApp.swift */; };
 		B7BA5C342AE360A500454FDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C332AE360A500454FDB /* ContentView.swift */; };
 		B7BA5C362AE360A700454FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BA5C352AE360A700454FDB /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 		B7BA5C432AE360A700454FDB /* BibleYearTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C422AE360A700454FDB /* BibleYearTrackerTests.swift */; };
 		B7BA5C4D2AE360A700454FDB /* BibleYearTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C4C2AE360A700454FDB /* BibleYearTrackerUITests.swift */; };
 		B7BA5C4F2AE360A700454FDB /* BibleYearTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C4E2AE360A700454FDB /* BibleYearTrackerUITestsLaunchTests.swift */; };
+		B7BA5C5E2AE360DB00454FDB /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C5D2AE360DB00454FDB /* ReadingListView.swift */; };
+		B7BA5C602AE3614400454FDB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA5C5F2AE3614400454FDB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B72B32DD2B053E6600D47429 /* bible_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bible_data.json; sourceTree = "<group>"; };
+		B72B32DF2B053E9C00D47429 /* BibleReadingsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReadingsDataModel.swift; sourceTree = "<group>"; };
+		B72B32E12B05CBBB00D47429 /* ReadingsLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsLocalDataSource.swift; sourceTree = "<group>"; };
+		B72B32E32B05CDBB00D47429 /* BibleReadingParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReadingParser.swift; sourceTree = "<group>"; };
+		B72B32E52B05D15400D47429 /* BibleReadingParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReadingParserTests.swift; sourceTree = "<group>"; };
 		B7BA5C2E2AE360A500454FDB /* BibleYearTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleYearTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BA5C312AE360A500454FDB /* BibleYearTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleYearTrackerApp.swift; sourceTree = "<group>"; };
 		B7BA5C332AE360A500454FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,8 @@
 		B7BA5C482AE360A700454FDB /* BibleYearTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleYearTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BA5C4C2AE360A700454FDB /* BibleYearTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleYearTrackerUITests.swift; sourceTree = "<group>"; };
 		B7BA5C4E2AE360A700454FDB /* BibleYearTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleYearTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7BA5C5D2AE360DB00454FDB /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
+		B7BA5C5F2AE3614400454FDB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +108,14 @@
 		B7BA5C302AE360A500454FDB /* BibleYearTracker */ = {
 			isa = PBXGroup;
 			children = (
+				B7BA5C5C2AE360BC00454FDB /* Settings */,
+				B7BA5C5B2AE360AF00454FDB /* Readings */,
 				B7BA5C312AE360A500454FDB /* BibleYearTrackerApp.swift */,
 				B7BA5C332AE360A500454FDB /* ContentView.swift */,
 				B7BA5C352AE360A700454FDB /* Assets.xcassets */,
+				B72B32DD2B053E6600D47429 /* bible_data.json */,
 				B7BA5C372AE360A700454FDB /* Preview Content */,
+				B72B32DF2B053E9C00D47429 /* BibleReadingsDataModel.swift */,
 			);
 			path = BibleYearTracker;
 			sourceTree = "<group>";
@@ -114,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B7BA5C422AE360A700454FDB /* BibleYearTrackerTests.swift */,
+				B72B32E52B05D15400D47429 /* BibleReadingParserTests.swift */,
 			);
 			path = BibleYearTrackerTests;
 			sourceTree = "<group>";
@@ -125,6 +144,24 @@
 				B7BA5C4E2AE360A700454FDB /* BibleYearTrackerUITestsLaunchTests.swift */,
 			);
 			path = BibleYearTrackerUITests;
+			sourceTree = "<group>";
+		};
+		B7BA5C5B2AE360AF00454FDB /* Readings */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA5C5D2AE360DB00454FDB /* ReadingListView.swift */,
+				B72B32E12B05CBBB00D47429 /* ReadingsLocalDataSource.swift */,
+				B72B32E32B05CDBB00D47429 /* BibleReadingParser.swift */,
+			);
+			path = Readings;
+			sourceTree = "<group>";
+		};
+		B7BA5C5C2AE360BC00454FDB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA5C5F2AE3614400454FDB /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BA5C392AE360A700454FDB /* Preview Assets.xcassets in Resources */,
+				B72B32DE2B053E6600D47429 /* bible_data.json in Resources */,
 				B7BA5C362AE360A700454FDB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BA5C342AE360A500454FDB /* ContentView.swift in Sources */,
+				B7BA5C602AE3614400454FDB /* SettingsView.swift in Sources */,
+				B72B32E02B053E9C00D47429 /* BibleReadingsDataModel.swift in Sources */,
+				B72B32E22B05CBBB00D47429 /* ReadingsLocalDataSource.swift in Sources */,
 				B7BA5C322AE360A500454FDB /* BibleYearTrackerApp.swift in Sources */,
+				B7BA5C5E2AE360DB00454FDB /* ReadingListView.swift in Sources */,
+				B72B32E42B05CDBB00D47429 /* BibleReadingParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72B32E62B05D15400D47429 /* BibleReadingParserTests.swift in Sources */,
 				B7BA5C432AE360A700454FDB /* BibleYearTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
